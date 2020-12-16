@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postcss": "postcss _input -d _output --no-map -w"
+  },
+  "dependencies": {
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1"
+  }
+}
