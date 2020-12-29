@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "postcss": "postcss _input -d _output --no-map -w"
+    "postcss": "postcss _input/ --base _input/ -d _output/ --ext .min.css --no-map -w"
   },
   "dependencies": {
     "css-mqpacker": "^7.0.0",
